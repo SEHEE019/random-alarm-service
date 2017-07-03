@@ -6,7 +6,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.DialogFragment;
+import android.util.Log;
 import android.widget.TimePicker;
+
+import static android.content.ContentValues.TAG;
 
 /**
  * Created by dsm2015 on 2017-06-20.

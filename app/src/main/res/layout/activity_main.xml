@@ -4,32 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D1C4E9"
+    android:background="#FFFCFF"
     android:orientation="vertical"
     tools:context="com.example.sehee.randomalarmservice.MainActivity">
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#6ED3FB"
+        android:textSize="100sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/msg1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <Button
         android:id="@+id/button1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_start"/>
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textColor="#FF8A80"
-        android:textSize="100sp"
-        android:id="@+id/msg1"/>
+        android:layout_weight="1"
+        android:background="@drawable/button_corner"
+        android:textColor="#FFFF"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/btn_start"/>
+
     <Button
         android:id="@+id/button2"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_corner"
+        android:textColor="#FFFF"
         android:text="@string/btn_stop"/>
+    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="#4CAF50"
-        android:textSize="50sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#636363"
+        android:textSize="30sp"
         android:id="@+id/msg2"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"/>
 </LinearLayout>
