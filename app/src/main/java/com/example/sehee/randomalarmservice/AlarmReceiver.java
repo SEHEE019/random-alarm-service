@@ -23,7 +23,7 @@ public class AlarmReceiver extends WakefulBroadcastReceiver {
 
         Uri uri1 = Uri.parse("android.resource://com.example.sehee.randomalarmservice/"+R.raw.am4);
         Uri uri2 = Uri.parse("android.resource://com.example.sehee.randomalarmservice/"+R.raw.born_singer);
-        Uri uri3 = Uri.parse("android.resource://com.example.sehee.randomalarmservice/"+R.raw.someone_like_you);
+        Uri uri3 = Uri.parse("android.resource://com.example.sehee.randomalarmservice/"+ R.raw.hug_me);
         Uri uri4 = Uri.parse("android.resource://com.example.sehee.randomalarmservice/"+R.raw.we_dont_talk_anymore);
 
         Random random = new Random();
