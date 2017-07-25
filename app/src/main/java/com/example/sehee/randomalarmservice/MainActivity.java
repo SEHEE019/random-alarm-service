@@ -30,7 +30,6 @@ public class MainActivity extends FragmentActivity {
     public static ImageView getImageView(){
         return imageView;
     }
-
     AlarmManager alarmManager;
     private PendingIntent pendingIntent;
 

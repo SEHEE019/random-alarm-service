@@ -41,8 +41,8 @@ public class AlarmReceiver extends WakefulBroadcastReceiver {
                 MainActivity.getImageView().setScaleType(ImageView.ScaleType.CENTER_INSIDE);
                 break;
             case 3:uri = uri3;
-                MainActivity.getTextView2().setText("Someone Like You - V");
-                MainActivity.getImageView().setImageResource(R.drawable.someone_like_you);
+                MainActivity.getTextView2().setText("Hug me - V&Hope");
+                MainActivity.getImageView().setImageResource(R.drawable.hug_me);
                 MainActivity.getImageView().setScaleType(ImageView.ScaleType.CENTER_INSIDE);
                 break;
             case 4:uri = uri4;
